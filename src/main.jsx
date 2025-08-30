@@ -1,13 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router'
-import Fit_Center from '../Header_File/Fit_Center.jsx'
-import Fit_Parther from '../Header_File/Fit_Parther.jsx'
-import Blogs from '../Header_File/Blogs.jsx'
-import Appx from '../Header_File/Appx.jsx'
-import Help from '../Header_File/Help.jsx'
+import App from './App'
+import Fit_Center from '../Pages/Header_File/Fit_Center'
+import Blogs from '../Pages/Header_File/Blogs'
+import Fit_Parther from '../Pages/Header_File/Fit_Parther'
+import Appx from '../Pages/Header_File/Appx'
+import Help from '../Pages/Header_File/Help.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

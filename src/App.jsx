@@ -1,6 +1,5 @@
 import React from 'react'
-import Header_file from '../Header_File/Header_file'
-
+import Header_file from '../Pages/Header_File/Header_file'
 
 function App() {
   return (
