@@ -3,7 +3,7 @@ import React from 'react'
 function Appx() {
   return (
     <div>
-      <h1>6</h1>
+      <h1 className='text-red-300'>fdgef</h1>
     </div>
   )
 }
