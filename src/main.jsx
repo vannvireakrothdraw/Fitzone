@@ -8,6 +8,8 @@ import Blogs from '../Pages/Header_File/Blogs'
 import Fit_Parther from '../Pages/Header_File/Fit_Parther'
 import Appx from '../Pages/Header_File/Appx'
 import Help from '../Pages/Header_File/Help.jsx'
+import Login from '../Pages/Login.jsx'
+import Home from '../Pages/Header_File/Home.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -15,14 +17,15 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<App/>}>
+        <Route path='/' element={<Home/>}/>
           <Route path='/fit_center' element={<Fit_Center/>}/>
           <Route path='/fit_parther' element={<Fit_Parther/>}/>
           <Route path='/blogs' element={<Blogs/>}/>
           <Route path='/appx' element={<Appx/>}/>
           <Route path='/help' element={<Help/>}/>
+          <Route path='/login' element={<Login/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
-    
   </StrictMode>,
 )
