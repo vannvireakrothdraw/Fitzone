@@ -20,7 +20,7 @@ function Compunent7() {
               placeholder="Enter your email"
               className="flex-1 px-4 py-2 rounded-l-lg focus:outline-none border-1 border-white rounded-xl mr-[3px] text-gray-50"
             />
-            <button className="bg-yellow-400 text-black px-6 py-2 rounded-r-lg font-semibold hover:bg-yellow-500">
+            <button className="bg-yellow-400 text-black px-6 py-2 rounded-lg font-semibold hover:bg-yellow-500">
               Subscribe
             </button>
           </div>

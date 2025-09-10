@@ -2,10 +2,10 @@ import React from "react";
 
 function Component4() {
   return (
-    <div className="relative w-full min-h-screen bg-black text-white flex flex-col items-center justify-center px-6 py-12">
+    <div className="relative w-full text-white flex flex-col items-center justify-center px-6 py-12 bg-black">
       {/* Background Image */}
+      <h1 className="mb-4 font-bold text-[30px]">The Fit.Zone Advantage</h1>
       <div className="absolute inset-0 bg-[url('/your-bg.jpg')] bg-cover bg-center opacity-40"></div>
-
       {/* Content */}
       <div className="relative z-10 max-w-4xl text-center grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Feature 1 */}
@@ -29,7 +29,6 @@ function Component4() {
             Diverse exercise routines to prevent boredom and foster interest
           </p>
         </div>
-
         {/* Feature 2 */}
         <div className="transition transform hover:scale-105">
           <svg
@@ -51,7 +50,6 @@ function Component4() {
             Group fitness classes for social interaction and community building
           </p>
         </div>
-
         {/* Feature 3 */}
         <div className="transition transform hover:scale-105">
           <svg
@@ -73,7 +71,6 @@ function Component4() {
             Tailored fitness programs and customized workouts
           </p>
         </div>
-
         {/* Feature 4 */}
         <div className="transition transform hover:scale-105">
           <svg
